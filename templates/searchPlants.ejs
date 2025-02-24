@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Search Plants</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body ontouchstart = "">
+        <div class = "fixedbg"></div>
+        <br>
+        <div class = "wrapper">
+            <div class = "header">
+                <h1>Search Plants</h1>
+            </div>
+            <div class = "section">
+                <form action="/processSearch" method="post">
+                    <label><strong>Highest Difficulty: </strong> </label>
+                        <select name="Difficulty">
+                            <option value ="Easy">Easy</option>
+                            <option value = "Medium">Medium</option>
+                            <option value = "Hard">Hard</option>
+                        </select>
+                    <br>
+                    <label><strong>Space available (inches): </strong><input type="number" name="minSpace" /></label><br>
+                    <label><strong>Sunlight: </strong></label>
+                        <select name="sunlight"  >
+                            <option value = "Full">Full</option>
+                            <option value = "Partial">Partial</option>
+                            <option value = "Little">Little</option>
+                        </select>
+                    <br><br>
+                    <button type="Reset" class = "red">Reset</button><span>&nbsp;</span>
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+            <div id ="toMod"></div>
+            <div class = "section dark">
+                <p><a href = "/" style = "font-size: 1.125rem">HOME</a></p>
+            </div>
+        </div>
+        <br>
+    </body>
+</html>
