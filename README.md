@@ -1,6 +1,7 @@
 <p>Submitted by: Elisabeth Lee (directory id: elee1233)</p>
 <p>Group Members: Grace Tang (directory id: gtang12), Andrew Jin (directory id: ajin123)</p>
 <p>App Description:Allow users to find plants that would work well for the user </p>
+<p>Instructions for running (on Mac OS): Open a terminal window in the folder of the project, and type "node server.js". Then, open your web browser and go to whatever localhost address the terminal gave you.</p>
 <p>YouTube Video Link: <a href="https://youtu.be/Q4Hpe4plYEk?feature=shared">https://youtu.be/Q4Hpe4plYEk?feature=shared</a> </p>
 <p>APIs: Plant Hardiness 
 (<a href="https://rapidapi.com/fireside-worldwide-fireside-worldwide-default/api/plant-hardiness-zone/">https://rapidapi.com/fireside-worldwide-fireside-worldwide-default/api/plant-hardiness-zone/</a>)</p>
